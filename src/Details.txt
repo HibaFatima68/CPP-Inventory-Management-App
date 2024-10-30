@@ -1,0 +1,32 @@
+Inventory Management System with OOP
+
+Main Classes:
+=============
+1. Inventory
+2. Customer
+3. Stock
+4. Supplier
+5. Payment
+
+... later on keep adding the classes. 
+
+Structure (Assuming Console App)
+================================
+
+1. Entry Point (Main.cpp)
+=========================
+> This will display the menu and we can simply use Switch Case to call the relevant method of a class. 
+> We also have to include classes as headers in main.cpp so that it can access all the methods described in API of the classes. 
+
+
+2. Classes
+==========
+(a) Header File
+===============
+> These will initiate the class and make the API (public methods and attributes)
+> Also it will define any value / variable / attributes / private / protected members etc. 
+
+(b) Cpp File
+=============
+> These is where we will program every class. Including Constructors, Methods etc. 
+> These files will include relevant class header file. 
