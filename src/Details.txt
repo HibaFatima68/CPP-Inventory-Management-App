@@ -30,3 +30,27 @@ Structure (Assuming Console App)
 =============
 > These is where we will program every class. Including Constructors, Methods etc. 
 > These files will include relevant class header file. 
+
+Structure
+=========
+
+InventoryManagementSystem/
+├── main.cpp                   # Main program file
+├── Inventory.h                # Inventory class header
+├── Inventory.cpp              # Inventory class implementation
+├── Stock.h                    # Stock class header
+├── Stock.cpp                  # Stock class implementation
+├── Customer.h                 # Customer class header
+├── Customer.cpp               # Customer class implementation
+├── Supplier.h                 # Supplier class header
+├── Supplier.cpp               # Supplier class implementation
+├── Payment.h                  # Payment class header
+├── Payment.cpp                # Payment class implementation
+├── InventoryManager.h         # InventoryManager class header
+├── InventoryManager.cpp       # InventoryManager class implementation
+├── ElectronicsInventory.h     # ElectronicsInventory subclass header
+├── ElectronicsInventory.cpp   # ElectronicsInventory subclass implementation
+├── GroceryInventory.h         # GroceryInventory subclass header
+├── GroceryInventory.cpp       # GroceryInventory subclass implementation
+└── ClothingInventory.h        # ClothingInventory subclass header
+└── ClothingInventory.cpp      # ClothingInventory subclass implementation
