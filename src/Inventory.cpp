@@ -1,6 +1,8 @@
 #include "Inventory.h"
+
 #include <iostream>
 #include <string>
+using namespace std;
 
  Inventory:: Inventory()
 {
@@ -14,7 +16,7 @@
 
 void Inventory::checkMethod(){
     // code for adding inventory
-    std::cout << "Function Called Successfully!" << std::endl; 
+    cout << "Function Called Successfully!" << endl; 
 }
 
 void Inventory::getDetails() {}
